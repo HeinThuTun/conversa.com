@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(white, #87CEFA);
+  background-size: cover;
+}
+
+.font {
+  color: rgb(39, 81, 164);
+}
+
+.background{
+  border-radius: 20px;
+  background-color: #87CEFA;
+}
+
+.under_line{
+  text-decoration: underline;
+}
+
+.all{
+  background-image: linear-gradient(white, #87CEFA);
+  background-size: cover;
+}
+
+.box-shadow{
+  box-shadow: 5px 5px 5px rgb(57, 55, 55);
+}

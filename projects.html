@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversa Community</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Oswald", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <div>
+      <div class="sticky top-0 z-50 drop-shadow-md">
+      <div class="flex justify-between items-center bg-white w-full">
+        <img class="lg:w-[6%] pl-3 md:w-[10%] sm:w-[20%] w-[20%]" src="conversa.png" alt="photo">
+        <p class="font lg:text-lg text-sm font-bold xl:pr-[30%] md:pr-0 pr-[40%]">GROW WITH CONVERSA</p>
+        <div class="flex lg:gap-10 gap-5 justify-center items-center md:flex hidden pr-3 " id="drop">
+          <a href="index.html"><p class="font-semibold  lg:text-lg text-sm px-3 py-1 border-none rounded heading" id="home_bg">Home</p></a>
+          <a href="about_us.html"><p class="font-semibold  lg:text-lg text-sm px-3 py-1 border-none rounded heading" id="about">About Us</p></a>
+          <a href="projects.html"><p class="font-semibold background  lg:text-lg text-sm px-3 py-1 border-none rounded heading" id="events">Programs</p></a>
+          <a href="volunteer.html"><p class="font-semibold  lg:text-lg text-sm px-3 py-1 border-none rounded heading" id="volunteer">Volunteer Activities</p></a>
+          <a href="contact_us.html"><p class="font-semibold   lg:text-lg text-sm px-3 py-1 border-none rounded heading" id="contact_us">Contact Us</p></a>
+        </div>
+        <div class="absolute z-50 md:hidden right-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="relative md:hidden cursor-pointer right-4 z-20" id="menu" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg"  id="cross" class="relative w-[30px]  right-4 hidden cursor-pointer" width="32" height="32" viewBox="0 0 24 24" ><g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M5.47 5.47a.75.75 0 0 1 1.06 0l12 12a.75.75 0 1 1-1.06 1.06l-12-12a.75.75 0 0 1 0-1.06"/><path d="M18.53 5.47a.75.75 0 0 1 0 1.06l-12 12a.75.75 0 0 1-1.06-1.06l12-12a.75.75 0 0 1 1.06 0"/></g></svg>
+        </div>
+        <div class="md:hidden">
+          <div class="top-0 flex items-end pr-7 rounded-bl-lg rounded-tl-lg flex-col right-0 bg-[#87CEFA] w-[50%] h-[350px] absolute gap-5 hidden justify-center" id="drop2">
+            <a href="index.html"><p class="font-semibold text-lg border-none md:rounded heading" id="home2">Home</p></a>
+            <a href="about_us.html"><p class="font-semibold text-lg heading" id="about_us">About Us</p></a>
+            <a href="projects.html"><p class="font-semibold under_line text-lg heading" id="events2">Programs</p></a>
+            <a href="volunteer.html"><p class="font-semibold text-lg heading" id="volunteer2">Volunteer Activities</p></a>
+            <a href="contact_us.html"><p class="font-semibold  text-lg heading" id="contact_us2">Contact Us</p></a>
+          </div>
+        </div>
+      </div>
+   </div>
+   <section class="xl:px-[80px] lg:px-[30px] w-full h-auto md:pt-[3%] pt-[10%]">
+    <p class="flex justify-center items-center text-3xl under_line  font-bold font pb-[3%]">WEBINARS</p>
+    <div class="">
+      <div class="flex md:flex-row flex-col md:pt-0 pt-[5%] justify-between items-center lg:px-0 px-[1%] md:gap-0 gap-[50px]">
+        <div class="flex flex-col justify-center items-center">
+          <img src="ged essentials.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">GED Essentials Webinar</p>
+          <p class=" lg:text-lg text-md">Strategies for success,</p>
+          <p class=" lg:text-lg text-md">Benefits & Drawbacks, And Life After GED</p>
+          <p class=" lg:text-lg text-md"></p>
+        </div>
+        <div class="flex flex-col justify-center items-center pb-[2%]">
+          <img src="gks scholarship.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">Tips & Tricks</p>
+          <p class=" lg:text-lg text-md">about GKS Scholarship</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="scholarship.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">How to get Scholarship</p>
+          <p class=" lg:text-lg text-md">at Nanjing Vocational Institute of</p>
+          <p class="  lg:text-lg text-md">Science and Technology?</p>
+        </div>
+      </div>
+
+      <div class="flex md:flex-row flex-col justify-between items-center md:pt-[5%] lg:px-0 px-[1%] pt-[10%] md:gap-0 gap-[50px]">
+        <div class="flex flex-col justify-center items-center">
+          <img src="germany.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">An Education Counselor's guide</p>
+          <p class=" lg:text-lg text-md">on studying in</p>
+          <p class=" lg:text-lg text-md">GERMANY</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="china.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">Unlocking Opportunities</p>
+          <p class=" lg:text-lg text-md">in HONG KONG & CHINA</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="korea.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px]  rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">What is Media Major</p>
+          <p class=" lg:text-lg text-md">in KOREA?</p>
+        </div>
+      </div>
+
+      <div class="flex md:flex-row flex-col justify-between items-center md:pt-[5%] pt-[10%] lg:px-0 px-[1%] md:gap-0 gap-[50px]">
+        <div class="flex flex-col justify-center items-center">
+          <img src="ielts.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">IELTS WEBINAR</p>
+          <p class=" lg:text-lg text-md">the secret to scoring BAND 7+</p>
+          <p class=" lg:text-lg text-md">Tips & Techniques</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="post-graduate.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">100% Scholarship</p>
+          <p class=" lg:text-lg text-md">for Post-Graduate Students</p>
+        </div>
+        <div class="flex flex-col justify-center items-center pb-[4%]">
+          <img src="scholar opportunities.jpg" alt="" class="xl:w-[350px] lg:w-[350px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">SCHOLARSHIP OPPORTUNITIES</p>
+        </div>
+      </div>
+    </div>
+   </section>
+   <section class=" w-full h-auto md:pt-[3%] pt-[10%]">
+    <div>
+      <p class="flex justify-center items-center text-3xl under_line  font-bold font pb-[3%]">PROJECTS</p>
+      <div class="flex justify-center items-center pt-[2%]">
+        <div class="flex flex-col justify-center items-center">
+          <div class="flex flex-col justify-center items-center">
+            <img src="meet my soul.jpg" alt="" class="xl:w-[600px] lg:w-[500px] md:w-[400px] w-[400px] shadow-md">
+            <img src="meet 2.jpg" alt="" class="xl:w-[600px] lg:w-[500px] md:w-[400px] w-[400px]  shadow-md">
+          </div>
+          <p class="font-semibold lg:text-xl text-lg  pt-[1%]">MEET MY SOUL PROJECT</p>
+        </div>
+      </div>
+      
+      <div class="flex flex-col justify-center items-center pt-[5%] ">
+        <div class="md:px-4 py-6 flex flex-col ">
+          <div class="flex items-center">
+            <img src="nextgen1.jpg" alt="" class="xl:w-[350px] lg:w-[350px] md:w-[250px] w-[180px] shadow-md">
+            <img src="nextgen2.jpg" alt="" class="xl:w-[350px] lg:w-[350px] md:w-[250px] w-[180px] shadow-md">
+          </div>
+          <div  class="flex justify-between items-center w-full ">
+            <img src="nextgen3.jpg" alt="" class="xl:w-[350px] lg:w-[350px] md:w-[250px] w-[180px] shadow-md">
+            <img src="nextgen4.jpg" alt="" class="xl:w-[350px] lg:w-[350px] md:w-[250px] w-[180px] shadow-md">
+          </div>
+          <p class="font-semibold lg:text-xl text-lg flex justify-center pt-[1%]">NEXT GEN MED:</p>
+        </div>
+        <img src="panda-removebg-preview.png" alt="" class="w-[300px] absolute xl:block hidden left-10 left-0 z-10">
+        <img src="panda-removebg-preview2.png" alt="" class="w-[300px] absolute xl:block hidden right-10 z-10">
+      </div>
+
+      <div class="flex md:flex-row flex-col justify-center gap-10 items-center md:pt-[5%] pt-[10%] lg:px-0 px-[1%] md:gap-[100px] gap-[50px]">
+        <div class="flex flex-col justify-center items-center">
+          <img src="highschool to university.jpg" alt="" class="xl:w-[400px] lg:w-[350px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">HIGH SCHOOL TO</p>
+          <p class="font-semibold lg:text-xl text-lg"> UNIVERSITY TRANSITION</p>
+          <p class=" lg:text-lg text-md">sharing Tips & Life Story</p>
+        </div>
+        <div class="flex flex-col justify-center items-center pb-[4%]">
+          <img src="korean speaking.jpg" alt="" class="xl:w-[400px] lg:w-[350px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%]">KOREAN SPEAKING PROJECT</p>
+        </div>
+      </div>
+
+      <div class="flex md:flex-row flex-col justify-center md:gap-[110px] items-center md:pt-[5%] pt-[10%] lg:px-0 px-[1%] gap-[50px]">
+        <div class="flex flex-col justify-center items-center md:pl-[6%]">
+          <img src="together for a chance.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[2%]">TOGETHER FOR A CHANCE</p>
+        </div>
+        <div class="flex flex-col justify-center items-center md:pr-[2%]">
+          <img src="unlocking inner.jpg" alt="" class="xl:w-[400px] lg:w-[350px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%]">UNLOCKING INNER CALM</p>
+        </div>
+      </div>
+
+      <div class="flex md:flex-row flex-col gap-10 justify-center items-center md:pt-[5%] pt-[10%] lg:px-0 px-[1%]">
+        <div class="flex flex-col justify-center items-center">
+          <img src="challenge1.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="challenge2.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%] md:block hidden">ENGLISH CHALLENGES</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="challenge3.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%] md:hidden block">ENGLISH CHALLENGES</p>
+        </div>
+      </div>
+
+      <div class="flex md:flex-row flex-col justify-center items-center md:gap-10 md:pt-[5%] pt-[10%] ">
+        <div class="flex flex-col justify-center items-center ">
+          <img src="zoom1.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="zoom4.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%] md:block hidden">ENGLISH SPEAKING CLUB</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img src="zoom3.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%] md:hidden block">ENGLISH SPEAKING CLUB</p>
+        </div>
+      </div>
+
+      <div class="flex  flex-col justify-center items-center  md:pt-[5%] pt-[10%] ">
+        <div class="flex flex-col justify-center items-center">
+          <img src="international.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <p class="font-semibold lg:text-xl text-lg pt-[1%]">INTERNATIONAL COLLABORATION</p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <div class="pb-[3%] xl:px-[80px] lg:px-[30px] flex md:flex-row  flex-col justify-center md:gap-10 items-center md:pt-[5%] pt-[10%] ">
+      <div class="flex flex-col justify-center items-center">
+        <img src="panel1.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+      </div>
+      <div>
+        <p class="font-semibold lg:text-xl text-lg pt-[1%] md:block hidden">&larr; PANEL DISCUSSION &rarr;</p>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <img src="panel2.jpg" alt="" class="xl:w-[350px] lg:w-[300px] md:w-[250px] w-[350px] rounded-lg shadow-md">
+        <p class="font-semibold lg:text-xl text-lg pt-[1%] md:hidden block">PANEL DISCUSSION</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
